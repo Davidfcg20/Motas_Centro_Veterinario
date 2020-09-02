@@ -6,6 +6,11 @@
 <body>
 	<?php  ?>
 
+	<H1>Motas Centro Veterinario</H1>
+	<p style="text-align: justify; margin-left:30px; margin-right: 40px;">La página de Motas Centro Veterinario se plantea como un proyecto donde se apliquen los aprendizajes de las materias Base de Datos e Ingeniería del Software, este abarca aspectos como la presentación y le da importancia a la parte estética, optimizando la imagen del Centro Veterinaria Motas; para lo que tendrá una presentación breve, menú desplegable con los servicios ofrecidos, datos de contactos, galería de imágenes y noticias del centro veterinario, proyectando a futuro una base de datos que permita al usuario del servicio acceder para consultar la historia clínica de su mascota.</p>
+
+	<i><p style="text-align: justify; margin-left:30px; margin-right: 40px;">Los colores Blanco y Azul son emblemáticos del Centro Veterinario Motas, por lo que se tendrán en cuenta al realizar el proyecto web. </p></i><br>
+
 
 		<img src="Imagenes/Logo.png" alt="Imagen" width="40%"><img>
 
@@ -104,7 +109,15 @@
 
 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcachorrosmedellin.dogscan%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
+<b>
+
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">La FAO identifica lagunas de conocimiento sobre Covid-19 y animales <a href="https://t.co/klQPIunUQD">https://t.co/klQPIunUQD</a></p>&mdash; Animal&#39;s Health (@animalshealthes) <a href="https://twitter.com/animalshealthes/status/1286321435909197826?ref_src=twsrc%5Etfw">July 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 </body>
 </html>
+
+
 
 
