@@ -1,0 +1,114 @@
+body {
+	background: url(FondoMotas.png);
+	font-family: Helvetica, sans-serif;
+
+
+}
+
+header {
+  display: flex;
+  font-family: Helvetica;
+	height: 120px; 
+  width: 100%;
+	background-color: white;
+
+}
+
+ul{
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  list-style: none;
+}
+
+
+#menu li>a{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+#menu>li{
+  float: left;
+  text-align:center
+}
+
+#menu>li>ul{
+  display: none;
+  text-align:left;
+}
+
+#menu>li:hover>ul {
+  display:block;
+}
+
+/*partimos aqui*/
+
+.div {
+  background-color: white;
+  padding: 5px 50px;
+  text-align: center;
+}
+
+#servgen{
+  display: flex;
+
+}
+
+.servesp{
+  margin: 0px 80px;
+
+}
+
+.servgen2{
+  display: flex;
+  margin: 0px -15px;
+
+}
+
+.servesp2{
+  margin: 0px 10px;
+
+}
+
+/* todo bien*/
+
+.servgen3{
+  margin: 0px -15px;
+
+}
+
+#servesp3{
+  display: flex;
+
+}
+
+#servesp3 p{
+  font-size: 50px;
+  font-style: italic;
+  color: red;
+}
+
+
+#servesp4{
+  display: flex;
+  position: relative;
+  left: 100px;
+  width: 93%;
+
+
+}
+
+#servesp4 p{
+  font-size: 50px;
+  font-style: italic;
+  color: blue;
+   margin: 0px 30px;
+}
