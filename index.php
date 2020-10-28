@@ -1,174 +1,250 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CENTRO VETERINARIO MOTAS</title>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 
+	<title>CENTRO VETERINARIO MOTAS</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+
+
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+	
 </head>
 
 
 	<?php  ?>
 
-	<header>
-	<img src="Imagenes/LogoPagina.png">
-		<nav>
-			<ul id="menu">
-				<li><a href=""><strong>Inicio</strong></a></li>
-				<li><a href="">Servicios</a>
-					<ul>
-						<li><a href="">Consulta Veterinaria</a>
-						<li><a href="">Peluqueria</a>
-						<li><a href="">Vacunas</a>
-					</ul>
+	<header id="Inicio">
+
+	<!--- MENÚ--->
+
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+			<img src="Imagenes/LogoPagina1.png">
+			<a class="navbar-brand" href="#">Centro Veterinario Motas</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto px-3">
+					<li class="nav-item active px-3 border-right">
+						<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown px-3 border-right">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Consulta veterinaria</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Peluqueria</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Vacunas</a>
+						</div>						
+						<li class="nav-item px-3 border-right">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Galeria</a>
 						</li>
-				<li><a href="">Galeria</a></li>
-				<li><a href="">Nosotros</a></li>
-				<li><a href="">Contactanos</a></li>
-			</ul>
-		</nav>
-	</header><br>
+						<li class="nav-item dropdown px-3 border-right">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nosotros</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#QuienesSomos">¿Quienes somos?</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#Noticias">Noticias</a>
+						</div>
+						</li>
+						<li class="nav-item px-3 border-right">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactanos</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 
-		<div id="divirin"><img id="pepe" src="Imagenes/Banner.png"></div><br>
+	<!--- FIN MENÚ --->
+			
+	</header>
 
-		<div class="div">
+	<!--- CARRUSEL --->
 
-
-		<h2>SERVICIOS</h2>
-
-		<div id="servgen">
-
-		<div class="servesp"><a href="http://google.com"><img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="Imagenes/BotonAnimalito.png" data-holder-rendered="true"></a><p>Consultas Generales</p></div>
-		<div class="servesp"><a href="http://google.com"><img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="Imagenes/BotonAnimalito.png" data-holder-rendered="true"></a><p>Cirugía Especializada</p></div>
-		<div class="servesp"><a href="http://google.com"><img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="Imagenes/BotonAnimalito.png" data-holder-rendered="true"></a><p>Vacuna y desparasitación</p></div>
-		<div class="servesp"><a href="http://google.com"><img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="Imagenes/BotonAnimalito.png" data-holder-rendered="true"></a><p>Peluquería</p></div>
-
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="Imagenes/Banner1.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="Imagenes/Banner2.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="Imagenes/Banner3.png" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
 
-		</div><br>
+	<!--- FIN CARRUSEL --->
 
-		<div class="div">
+	<!--- DIV ESTETICO --->
 
+		<div class="container-fluid bg-light">
 
-		<h2>GALERIA</h2>
+	<!--- DIV ESTETICO --->
 
-		<div class="servgen2">
+	<!--- SERVICIOS --->	
 
-		<div class="servesp2"><img class="square" alt="300x150" style="width: 290px; height: 150px;" src="Imagenes/Galeria1.png" data-holder-rendered="true"><p>Consultas Generales</p></div>
-		<div class="servesp2"><img class="square" alt="300x150" style="width: 290px; height: 150px;" src="Imagenes/Galeria2.png" data-holder-rendered="true"><p>Consultas Generales</p></div>
-		<div class="servesp2"><img class="square" alt="300x150" style="width: 290px; height: 150px;" src="Imagenes/Galeria3.png"data-holder-rendered="true"><p>Consultas Generales</p></div>
-		<div class="servesp2"><img class="square" alt="300x150" style="width: 290px; height: 150px;" src="Imagenes/Galeria4.png" data-holder-rendered="true"><p>Consultas Generales</p></div>
+		<div id="Servicios" class="row bg-white">
+			
+			<div class="col jumbotron bg-white">
 
-		</div>
+				<h3>CENTRO VETERINARIO MOTAS</h3>
+				<h1 class="display-4">Nuestros Servicios</h1><br>		
+				<p class="lead text-justify"> Una clínica veterinaria es una institución de servicios para la salud, principalmente para perros y gatos; sin embargo, se puede atender a todo tipo de animales, tanto domésticos como exóticos. El objetivo de estos centros médicos es preservar el bienestar de los animales. </p><br>
+				<a class="btn btn-primary btn-lg" href="#" role="button">Contactanos</a>
 
-		<div class="servgen2">
+			</div>
 
-		<div class="servesp2"><img class="square" alt="300x150" style="width: 290px; height: 150px;" src="Imagenes/Galeria5.png" data-holder-rendered="true"><p>Consultas Generales</p></div>
-		<div class="servesp2"><img class="square" alt="300x150" style="width: 290px; height: 150px;" src="Imagenes/Galeria6.png" data-holder-rendered="true"><p>Consultas Generales</p></div>
-		<div class="servesp2"><img class="square" alt="300x150" style="width: 290px; height: 150px;" src="Imagenes/Galeria7.png"data-holder-rendered="true"><p>Consultas Generales</p></div>
-		<div class="servesp2"><img class="square" alt="300x150" style="width: 290px; height: 150px;" src="Imagenes/Galeria8.png" data-holder-rendered="true"><p>Consultas Generales</p></div>
+			<div class="col-md-7 bg-white">
 
-		</div>
+				<div class="row bg-white my-2">
 
-		</div><br>
+					<div class="card mx-5 my-2 bg-light" style="width: 18rem;">
+						<img src="Imagenes/Banner1.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Consulta Médica</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
 
-		<div class="div">
-
-
-		<h2>NOTICIAS</h2>
-
-		<div class="servgen3">
-
-		
-
-		<div id="servesp3">
-			<blockquote class="twitter-tweet"><p lang="es" dir="ltr">La FAO identifica lagunas de conocimiento sobre Covid-19 y animales <a href="https://t.co/klQPIunUQD">https://t.co/klQPIunUQD</a></p>&mdash; Animal&#39;s Health (@animalshealthes) <a href="https://twitter.com/animalshealthes/status/1286321435909197826?ref_src=twsrc%5Etfw">July 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			<p>Aqui va el texto de la primer noticia</p></div>
-
-			<div id="servesp4">
-			<p>Aqui va el texto de la segunda noticia</p><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcachorrosmedellin.dogscan%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></div>
-
-		</div>
-
-		</div><br>
-
-		
-		<div>
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63457.366780586206!2d-75.6136583!3d6.2524749!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428ede76e32b5%3A0x802587e255b201e3!2sCl.%2066%2C%20Medell%C3%ADn%2C%20Antioquia%2C%20Colombia!5e0!3m2!1ses!2sve!4v1601225150202!5m2!1ses!2sve" frameborder="0" style="border:0;" allowfullscreen aria-hidden="false" tabindex="0"></iframe>
-      	</div><br>
-
-      <!--- AQUI PEGAMOS EL EJEMPLO --->
-
-
-		<div class="div">
-
-		<section id="appointment" class="appointment section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Haga una Cita</h2>
-        
-        </div>
-
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
-          <div class="form-row">
-            <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder=Nombre data-rule="minlen:4" data-msg="Por favor Escriba al menos 4 caracteres">
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-4 form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Su correo electrónico" data-rule="email" data-msg="Por favor ingrese un correo valido">
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-4 form-group">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Su teléfono" data-rule="minlen:4" data-msg="Por favor Escriba al menos 4 caracteres">
-              <div class="validate"></div>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="col-md-4 form-group">
-              <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Fecha de la Cita" data-rule="minlen:4" data-msg="Por favor Escriba al menos 4 caracteres">
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-4 form-group">
-              
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-4 form-group">
-              
-              <div class="validate"></div>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <textarea class="form-control" name="message" rows="5" placeholder="Mensaje (Opcional)"></textarea>
-            <div class="validate"></div>
-          </div>
-          <div class="mb-3">
-            <div class="loading">Cargando</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Su cita ha sido enviada satisfactoriamente. Gracias!</div>
-          </div>
-          <div class="text-center"><button type="submit">Haga una Cita</button></div>
-        </form>
-
-      </div>
-    </section><!-- Fin seccion de cita -->
-
-    	</div>
-
-
-
-
-
-		<!--- AQUI PEGAMOS EL EJEMPLO --->
-
-		<footer><img src="Imagenes/Footer.png"></footer>
-		
+					<div class="card mx-5 my-2 bg-light" style="width: 18rem;">
+						<img src="Imagenes/Banner2.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Peluquería y Estetica</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
 	
+				</div>
 
-</body>
-</html>
+				<div class="row bg-white">
+
+					<div class="card mx-5 my-2 bg-light" style="width: 18rem;">
+						<img src="Imagenes/Banner3.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Vacunación y Esterilización</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+
+					<div class="card mx-5 my-2 bg-light" style="width: 18rem;">
+						<img src="Imagenes/Banner1.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Cirugía</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+
+					
+				</div>
+
+			</div>
+
+		</div>
+
+		<!--- FIN SERVICIOS --->
 
 
+		<!--- ¿QUIENÉS SOMOS? --->
+
+			<div id="QuienesSomos" class="container bg-light">
+
+				<h2 class="display-4 text-center">¿Quiénes somos?</h2>
+
+				<div class="row container-fluid" style="text-align: center;">
+					<p>La Clínica Veterinaria MOTAS es una empresa dedicada al cuidado de las mascotas, que lleva en el mercado desde el año 2006, trabajando en pro del bienestar de cada mascota. Desde entonces, sus primordiales objetivos estuvieron encaminados a mejorar en todos sus servicios, y muchos de estos objetivos se han logrado, como la innovación de los equipos de diagnóstico, cirugía, y la adecuación de la infraestructura, dando como resultado el poder ofrecer a todos nuestros clientes un servicio integral atendidos por profesionales de altísima calidad, todo ésto con el fin de tratar nuestros pacientes como seres que merecen la mejor atención y especial cuidado.</p>
+				</div>
+
+				<div class="row">
+
+					<div class="col-lg-6">
+						<img src="Imagenes/Casa.png" class="img-fluid" alt="">
+					</div>
+
+					<div class="col-lg-6">
+
+						<hr>
+
+						<h3 class="display-5 px-auto text-justify">MISIÓN</h3>
+
+						<p class="text-justify">La clínica veterinaria AQUAVET tiene como misión ofrecer bienestar a cada una de nuestras mascotas, que sus familias entiendan los deberes y los derechos que tienen las mascotas desde el instante que entran a formar parte de sus vidas. Nuestro grupo de trabajo comparte valores y principios éticos de respeto, responsabilidad y compromiso, superándolas expectativas de nuestros clientes y entregando calidad y satisfacción en nuestros servicios.</p>
+
+						<hr>
+
+						<h3 class="display-5 px-auto text-justify">VISIÓN</h3>
+
+						<p class="text-justify">La clínica veterinaria AQUAVET tiene como visión ser una empresa sólida, líder en prestación de servicios médicos veterinarios de la mejor calidad y profesionalismo, con énfasis en animales de compañía. Nuestro compromiso social es mejorar la calidad de vida de las familias a través del cuidado de la salud de nuestros pacientes contando con excelente tecnología, un equipo médico altamente calificado con educación y capacidad continua.</p>
+
+						<hr>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		<!--- FIN ¿QUIENÉS SOMOS? --->
+
+		<!--- FIN DIV ESTETICO --->
+
+		</div>
+
+		<!--- FIN DIV ESTETICO --->
 
 
+		<!--- DIV ESTETICO --->
+
+		<div class="container-fluid bg-white">
+
+		<!--- DIV ESTETICO --->
+
+		<!--- NOTICIAS --->
+
+			<div id="Noticias" class="container bg-white pt-3">
+
+				<h2 class="pb-2" style="text-align: center;">Noticias</h2>
+
+				<div class="row">
+					<div class="col-lg-4 order-2 order-lg-1" data-aos="fade-right">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FP%25C3%25A1gina-de-adopci%25C3%25B3n-perros-y-gatos-312796346252551%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					</div>
+
+					<div class="col-lg-4 order-2 order-lg-1" data-aos="fade-right">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcachorrosmedellin.dogscan%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					</div>
+
+					<div class="col-lg-4 order-2 order-lg-1" data-aos="fade-right">
+						<blockquote class="twitter-tweet"><p lang="es" dir="ltr">La FAO identifica lagunas de conocimiento sobre Covid-19 y animales <a href="https://t.co/klQPIunUQD">https://t.co/klQPIunUQD</a></p>&mdash; Animal&#39;s Health (@animalshealthes) <a href="https://twitter.com/animalshealthes/status/1286321435909197826?ref_src=twsrc%5Etfw">July 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+
+				</div>
+
+			</div><br>
+
+
+		<!--- FIN NOTICIAS --->
+
+		<!--- CITA --->
+
+			<div id="Cita" class="container bg-light">
+
+				<h2 class="py-3">Haga una Cita</h2>
+						
