@@ -247,4 +247,259 @@
 			<div id="Cita" class="container bg-light">
 
 				<h2 class="py-3">Haga una Cita</h2>
+
+                   
+                <form>
+
+					<div class="form-row">
+						<div class="col-md-4 form-group">
+							<input type="text" name="name" class="form-control" id="name" placeholder=Nombre data-rule="minlen:4" data-msg="Por favor Escriba al menos 4 caracteres">
+							<div class="validate"></div>
+						</div>
+
+						<div class="col-md-4 form-group">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Su correo electrónico" data-rule="email" data-msg="Por favor ingrese un correo valido">
+							<div class="validate"></div>
+						</div>
+
+						<div class="col-md-4 form-group">
+							<input type="tel" class="form-control" name="phone" id="phone" placeholder="Su teléfono" data-rule="minlen:4" data-msg="Por favor Escriba al menos 4 caracteres">
+							<div class="validate"></div>
+						</div>
+
+					</div>
+
+					<div class="form-row">
+
+						<div class="col-md-4 form-group">
+							<input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Fecha de la Cita" data-rule="minlen:4" data-msg="Por favor Escriba al menos 4 caracteres">
+							<div class="validate"></div>
+						</div>
+						
+					</div>
+
+					<div class="form-group">
+						<textarea class="form-control" name="message" rows="5" placeholder="Mensaje (Opcional)"></textarea>
+						<div class="validate"></div>
+					</div>
+
+
+					<div class="text-center pb-3"><button class="btn-primary btn-lg" type="submit">Haga una cita</button></div>
+
+				</form>
+
+			</div><br>
+
+		<!--- FIN CITA --->
+
+		<!--- FIN DIV ESTETICO --->
+
+		</div>
+
+		<!--- FIN DIV ESTETICO --->
+
+		<!--- DIV ESTETICO --->
+
+		<div class="container-fluid bg-light">
+
+		<!--- DIV ESTETICO --->
+
+
+		<!--- GALERIA --->
+
+		<div id="Galeria" class="container-fluid bg-light ml-2" style="align-content: center; text-align: center;">
+
+			<h2 class="py-1">Galeria</h2>
+
+			<div class="row ">
+
+			<div class="card ml-4 my-2" style="width: 18rem;">
+				<img src="Imagenes/Galeria1.png" >
+			</div>
+
+			<div class="card ml-4 my-2" style="width: 18rem;">
+				<img src="Imagenes/Galeria2.png" >
+			</div>
+
+			<div class="card ml-4 my-2" style="width: 18rem;">
+				<img src="Imagenes/Galeria3.png" >
+			</div>
+
+			<div class="card ml-4 my-2" style="width: 18rem;">
+				<img src="Imagenes/Galeria4.png" >
+			</div>
+
+			</div>
+
+			<div class="row mb-4">
+
+			<div class="card ml-4 my-2" style="width: 18rem;">
+				<img src="Imagenes/Galeria5.png" >
+			</div>
+
+			<div class="card ml-4 my-2" style="width: 18rem;">
+				<img src="Imagenes/Galeria6.png" >
+			</div>
+
+			<div class="card ml-4 my-2" style="width: 18rem;">
+				<img src="Imagenes/Galeria7.png" >
+			</div>
+
+			<div class="card ml-4 my-2" style="width: 18rem;">
+				<img src="Imagenes/Galeria8.png" >
+			</div>
+
+			</div>
+
+		</div>
+
+		<!--- FIN GALERIA --->
+
+		<!--- FIN DIV ESTETICO --->
+
+		</div>
+
+		<!--- FIN DIV ESTETICO --->
+
+
+		<!--- DIV ESTETICO --->
+
+		<div class="container-fluid bg-white">
+
+		<!--- DIV ESTETICO --->
+
+		<!--- CONTACTANOS --->
+
+			<div id="Contactanos" class="container">
+
+			<h2 style="text-align: center;">Contactanos</h2>
+
+			</div>
+
+		<!--- FIN DIV ESTETICO --->
+
+		</div>
+
+		<!--- FIN DIV ESTETICO --->
+
+			<div>
+
+				<iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63457.366780586206!2d-75.6136583!3d6.2524749!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428ede76e32b5%3A0x802587e255b201e3!2sCl.%2066%2C%20Medell%C3%ADn%2C%20Antioquia%2C%20Colombia!5e0!3m2!1ses!2sve!4v1601225150202!5m2!1ses!2sve" frameborder="0" style="border:0;" allowfullscreen aria-hidden="false" tabindex="0"></iframe>
+
+			</div>
+
+		<!--- DIV ESTETICO --->
+
+		<div class="container-fluid bg-white">
+
+		<!--- DIV ESTETICO --->
+
+			<div class="container bg-white">
+
+				<div class="row mt-5">
+
+					<div class="col-lg-6">
+
+						<div class="row">
+							<div class="col-md-12 border ">
+								<div class="info-box">
+									<i class="bx bx-map"></i>
+									<h3 >Nuestra Dirección</h3>
+									<p>Calle 66 # 44B - Itagüi - Antioquia</p>
+								</div>
+							</div>
+							<div class="col-md-6 border">
+								<div class="info-box mt-4">
+									<i class="bx bx-envelope"></i>
+									<h3>Escribenos </h3>
+									<p>info@ejemplo.com<br>contactanos@ejemplo.com</p>
+								</div>
+							</div>
+							<div class="col-md-6 border">
+								<div class="info-box mt-4">
+									<i class="bx bx-phone-call"></i>
+									<h3>Llamanos</h3>
+									<p>+57 281 15 70<br> +57 281 15 70</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div><br>
+
+	<!--- FIN CONTACTANOS --->
+
+	<!--- FIN DIV ESTETICO --->
+
+	</div>
+
+	<!--- FIN DIV ESTETICO --->
+
+	<!--- FOOTER --->
+
+	<footer class="bg-secondary" id="footer">
+
+		<div class="container-fluid row text-white">
+
+			<div class="col">
+				<img class="ml-3 mt-3" src="Imagenes/LogoPagina.png" >
+			</div>
+
+			<div class="col"> 
+
+				<h3>Motas</h3>
+				<p>
+					Calle 66 # 44B - 4<br>
+					Itagüi - Antioquia, Colombia<br><br>
+					<strong>Teléfono:</strong> +57 281 15 70<br>
+					<strong>Email:</strong> info@ejemplo.com<br>
+				</p>
+				<div class="social-links mt-3">
+					<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+					<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+					<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+					<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+					<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+				</div> 
+
+			</div>
+
+			<div class="col"> 
+
+				<h4>Enlaces Utiles</h4>
+				<ul >
+					<li><a style="color: white" href="#Servicios">Servicios</a></li>
+					<li><a style="color: white" href="#QuienesSomos">¿Quiénes somos?</a></li>
+					<li><a style="color: white" href="#Noticias">Noticias</a></li>
+					<li><a style="color: white" href="#Galeria">Galeria</a></li>
+					<li><a style="color: white" href="#Contactanos">Contactanos</a></li>
+				</ul> 
+
+			</div>
+
+		</div>
+
+	</footer>
+
+		<div class="fixed-bottom mb-3 mr-3"><a href="#Inicio">
+		<button type="button" class="btn btn-secondary float-right"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/></svg></button></a>
+	</div>
+
+
+  	<!--- FOOTER --->
+
+	
+
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
 						
