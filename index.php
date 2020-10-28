@@ -58,6 +58,45 @@
 					</ul>
 				</div>
 			</nav>
+		
+		<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+			<img src="Imagenes/LogoPagina1.png">
+			<a class="navbar-brand" href="#">Centro Veterinario Motas</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto px-3">
+					<li class="nav-item active px-3 border-right">
+						<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown px-3 border-right">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Consulta veterinaria</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Peluqueria</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Vacunas</a>
+						</div>						
+						<li class="nav-item px-3 border-right">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Galeria</a>
+						</li>
+						<li class="nav-item dropdown px-3 border-right">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nosotros</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#QuienesSomos">¿Quienes somos?</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#Noticias">Noticias</a>
+						</div>
+						</li>
+						<li class="nav-item px-3 border-right">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactanos</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 
 	<!--- FIN MENÚ --->
 			
